@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION GAME</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <ul class="nav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div id="quiz-cont" class="hide">
+            <div class="quiz" id="quiz">Question</div>
+            <div id="answer" class="answer">
+                <button class="btn correct">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+
+
+    <footer>
+        <h3>Copyright &copy; ericricky 2020</h3>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
